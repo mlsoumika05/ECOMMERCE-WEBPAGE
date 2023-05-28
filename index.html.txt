@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="left">
+                <span>Welcome to EFlyer</span>
+                <a href="#">Register</a> OR
+                <a href="#">Login</a>
+            </div>
+            <div class="right">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+            </div>
+        </nav>
+        <!-- <nav1 end> -->
+            <!-- <nav2 begin> -->
+                <nav class="nav2">
+                    <div class="left1">
+                    <i class="fa fa-phone"></i>+91 8742568...
+                    <i class="fa fa-envelope"></i>eflyer01@gmail.com
+                                        
+                </div>
+                        <div class="center1">
+                            <h1>E<span>flyer...</span></h1>
+                    
+                            <p>"Bringing You the Elements of Style"</p>
+                        </div>
+                            <div class="right1">
+                                <i class="fa fa-map"></i>Contact us
+                    </div>
+
+                </nav>
+                <!-- <nav2 end> -->
+                    <!-- nav3 start -->
+                    <nav class="nav3">
+                        <div class="left2">
+                        <ul>
+                    <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-users"></i>Acessories.....</a>
+                    <ul>
+                        <li><a href="#">Headphones</a></li>
+                        <li><a href="#">Wallets</a></li>
+                        <li><a href="#">Jwellery</a></li>
+                        <li><a href="#">Handbags</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                    </ul>
+                    </li>
+                   
+                    <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special Offers</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i>kids</a></li>
+                    <li><a href="#"><i class="fa fa-heart"></i>Beauty</a></li>
+                    <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+                        </ul>
+                        </div>
+                    </nav>
+                    <!-- nav3 end -->
+                    <!-- display section start -->
+                    <section class="dis">
+                        <div class="distext">
+                            <button>COMING SOON...</button>
+                            <H2>Our new designs</H2>
+                            <h5>"Style like never before"</h5>
+                        </div>
+                    </section>
+                    <!-- display section end-->
+    </header>
+    <!-- arrival section start -->
+    <section class="arrival">
+        <div class="products">
+            <h1>New<span>Arrivals</span></h1>
+            <p>Get Ready For A New Deal Every Hour</p>
+            <h5>10AM-2PM</h5>
+            <H4>WISHLIST NOW</H4>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <div>
+                <img src="s2.jpg" alt="">
+            </div>
+            <h2>Shoes1</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$600.00</p>
+<button>Add to Cart</button>
+        </div>
+        
+        <div class="card">
+            <div>
+                <img src="s3.jpg" alt="">
+            </div>
+            <h2>Shoes2</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$500.00</p>
+<button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s8.jpg" alt="">
+            </div>
+            <h2>Shoes3</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$800.00</p>
+<button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s2.jpg" alt="">
+            </div>
+            <h2>Shoes4</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$500.00</p>
+<button>Add to Cart</button>
+        </div>
+            
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <div>
+                <img src="s2.jpg" alt="">
+            </div>
+            <h2>Shoes1</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$500.00</p>
+<button>Add to Cart</button>
+        </div>
+        
+        <div class="card">
+            <div>
+                <img src="s3.jpg" alt="">
+            </div>
+            <h2>Shoes2</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$600.00</p>
+<button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s8.jpg" alt="">
+            </div>
+            <h2>Shoes3</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$900.00</p>
+<button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="s2.jpg" alt="">
+            </div>
+            <h2>Shoes4</h2>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+<p>$1000.00</p>
+<button>Add to Cart</button>
+        </div>
+            
+    </div>
+     <!-- arrival section end-->
+     <!-- recommended start-->
+     <section class="arrival">
+        <div class="products">
+            <h1>Shop<span> By Category</span></h1>
+            <p>Summertime Must Buys</p>
+            <h5>SUPER-SAVER-OFFERS</h5>
+            <H4>WISHLIST NOW</H4>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="bu1.jpg" alt="">
+                </div>
+                <h2>BEAUTY PRODUCTS</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+    <p>$2500.00</p>
+    <button>Add to Cart</button>
+            </div>
+            
+            <div class="card">
+                <div>
+                    <img src="bu2.jpg" alt="">
+                </div>
+                <h2>SUMMER WEAR</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+    <p>$5020.00</p>
+    <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="bu3.jpg" alt="">
+                </div>
+                <h2>PERSONAL CARE</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+    <p>$100.00</p>
+    <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="bu4.jpg" alt="">
+                </div>
+                <h2>BB AND CC CREAM</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+    <p>$800.00</p>
+    <button>Add to Cart</button>
+            </div>
+                
+        </div>
+     </section>
+      <!-- recommended end -->
+      <section class="trends">
+            <div class="products">
+                <h1>CATEGORIES<span> ON THE RISE</span></h1>
+                <p>DEALS OF THE DAY</p>
+                <H4>WISHLIST NOW</H4>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="headphone1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="headphone2.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="headphone3.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="headphone1.png" alt="">
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <footer>
+                <div class="heading" >
+                    <h1>E<span>flyer...</span></h1>
+                            <p>"Bringing You the Elements of Style"</p>
+                </div>
+                        <div>
+                 <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+                <p><br>Designed by ML SOUMIKA</p>
+                        </div>
+                    <div>
+                        <p>@2023 Coyright All Reserved</p>
+                </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 1200,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+            
+</body>
+</html>

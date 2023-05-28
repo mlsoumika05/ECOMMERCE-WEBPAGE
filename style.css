@@ -1,0 +1,349 @@
+*{padding:0;
+    margin:0;
+    box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+  /* font-family: 'Akaya Telivigala', cursive; */
+} 
+:root{
+--primary:rgba(222, 74, 15, 0.955);
+--secondary:black;
+--light:rgb(57, 48, 48);
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.nav1{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    box-shadow: 2px 0px 3px grey;
+    text-align: center;
+}
+.nav1 .left{
+   flex-basis: 50%;
+   letter-spacing: 2px;
+}
+.nav1 .left a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.right{
+    flex-basis: 50%;
+}
+.nav1 .right i{ 
+    font-size: 20px;
+    margin:0px 10px;
+    border-radius: 20px;
+    color:white;
+    background-color: var(--primary);
+    padding:8px; 
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+.nav1 .right i:hover{
+    transform:rotate(360deg) ;
+}
+.nav2{
+    width:100%;
+    height:120px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align: center;
+    cursor:pointer;
+
+}
+.nav2 .left1 ,.nav2 .right1 ,.nav2 .center1{
+    margin: auto;
+    cursor: pointer;
+}
+.nav2 .left1 i,.nav2 .right1 i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav2 .center1 h1{
+    letter-spacing:10px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: var(--primary);
+    transition: 4s;
+}
+.nav2 .center1 h1 span{
+    letter-spacing:10px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    color: var(--secondary)}
+
+.nav2 .center1 p{
+    color:var(--secondary);
+    font-style: italic;
+    letter-spacing: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.nav2 .right1:hover{
+color:rgb(8, 8, 141) ;
+} 
+.nav2 .left1:hover{
+    color:rgb(8, 8, 141) ;
+    } 
+    .nav2 .left1 i,.nav2 .left1 i{
+        color:black;
+    }
+    .nav2 .right1 i{
+        color:black;
+    }
+
+    .nav2 .center1 h1:hover{
+        letter-spacing: 20px;
+    }
+    .nav3{
+        padding-top: 1px;
+    }
+
+    .nav3 .left3 a{
+        text-decoration: none;
+        width:100%;
+        height:70px;
+        line-height: 70px;
+        font-size: 10px;
+        color: var(--primary); 
+        display: block;  
+    }
+    .nav3 ul{
+        list-style: none;
+        text-align: center;
+      
+    }
+    .nav3 ul li{
+        display:inline-block;
+        width:150px;
+        color: var(--primary);
+        z-index:99;
+        position: relative;
+    }
+    .nav3 ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        display: block;
+    }
+    .nav3 ul li a:hover{
+        color: var(--primary);
+    }
+    .nav3 ul li i{
+        color:var(--primary);
+        margin:0px 5px;
+    }
+    .nav3 ul ul{
+        position: absolute;
+        top:20px;
+        left:0;
+        display:none; 
+     }
+    .nav3 ul ul li{
+        background-color: white;
+        border-bottom:1px solid var(--primary) ;
+    } 
+    .nav3 ul li:hover>ul{
+        display: block;
+    }
+    .dis{
+        padding-left: 50%;
+        padding-top: 10%;
+        width:100%;
+        height:60vh;
+        background:linear-gradient(to right,
+            rgba(0,0,0,0.8)20%,rgba(255,255,255,0.2)) , url(ecommerce.jpg);
+        background-size: cover;
+        background-position-y: top;
+        position: relative;
+       
+
+    }
+    .dis .distext button{
+        background-color:transparent ;
+        border-radius: 10px;
+       font-family: poppins;
+       align-items: center;
+       padding:20px 10px 20px 10px;
+       font-style: 20px;
+       color:white;
+       transition: 3s;
+       outline:none;
+    }
+    .distext{
+        max-width: 500px;
+        position: absolute;
+        top:50%;
+        left:10%;
+        color:white;  
+    }
+    .distext h2{
+        font-size: 2rem;
+        font-family: 'Merriweather', serif; 
+        letter-spacing: 2px;
+        padding-top: 10px;
+        font-style: italic;
+        padding-bottom: 1px;
+    }
+    .distext h5{
+        letter-spacing: 10px;
+        font-family: 'Merriweather', serif; 
+    }
+    .dis .distext button:hover{
+        background-color: rgb(89, 89, 5);
+        outline:rgb(3, 3, 69);
+    }
+    .arrival{
+        padding:50px 50px;
+    }
+    .arrival .products{
+        text-align: center;
+    }
+.arrival .products h1{
+    color:var(--secondary);
+    letter-spacing:0.2rem ;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.arrival .products p{
+    letter-spacing: 5px;
+    padding-top: 2px;
+}
+.arrival .products h5{
+    font-family:'Roboto', sans-serif; 
+    font-weight: none;
+    padding-top: 10px;
+}
+.arrival .products h4{
+    font-size: 20px;
+    padding-top: 5px;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
+ } 
+ .arrival .products h1 span{
+    color:var(--primary);
+ }
+ .card-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    margin:4rem 0rem;
+ }
+.card-container .card{
+    flex-basis:20%;
+    padding:0.8rem;
+    position: relative;
+}
+
+.card-container img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+.card i{
+    color:goldenrod;
+    margin:10px 0;
+}
+.card button{
+    border-radius: 10px;
+    color:white;
+    background: var(--secondary);
+    margin:1px;
+    padding:5px 20px;
+    outline:none;
+}
+.card p{
+    padding-bottom: 10px;
+}
+.card :hover img ,.card:hover h2{
+    width:80%;
+    color:var(--primary);
+}
+.card::before{
+    content:'20% off';
+    width:25%;
+    height:25px;
+    line-height:25px;
+    color:white;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: var(--primary);
+    padding: 0px 4px;
+    transform:rotate(-25deg);
+}
+
+.trends .swiper {
+    width: 100%;
+    padding:50px;}
+
+  .trends  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .trends  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height:100%;
+  }
+
+  footer{
+    color:white;
+    background-color:var(--secondary);
+    justify-content:space-around;
+    align-items: center;
+    flex:wrap;
+    min-width: 100%;
+    text-align: center;
+    padding: 2rem;
+  }
+  footer div{
+    padding: 10px 10px;
+    flex-basis: 30%;
+  }
+  footer .heading span
+    {
+        letter-spacing:10px;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 20px;
+        color: var(--primary);
+  }
+  footer .heading h1
+    {
+        letter-spacing:10px;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 20px;
+        color:white;
+  }
+  footer .heading p{
+    font-style: italic;
+    letter-spacing: 8px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+footer i{
+    margin:0px 5px;
+}
+@media only screen and (max-wdith:769px){
+    body{
+        background-color: red;
+    }
+}
+
+  
